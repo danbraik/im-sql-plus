@@ -16,7 +16,7 @@ int main()
 
     /* Create the FIFO if it does not exist */
     umask(0);
-    mkfifo(FIFO_FILE, S_IWUSR | S_IRGRP | S_IROTH);
+    mkfifo(FIFO_FILE, S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH);
 
     printf("Waiting a reader on '%s'\n", FIFO_FILE);
 
