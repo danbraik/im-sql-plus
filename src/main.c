@@ -1,10 +1,3 @@
-/*****************************************************
- * Copyright Grégory Mounié 2008-2013                *
- *           Simon Nieuviarts 2002-2009              *
- * This code is distributed under the GLPv3 licence. *
- * Ce code est distribué sous la licence GPLv3+.     *
- *****************************************************/
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <signal.h>
