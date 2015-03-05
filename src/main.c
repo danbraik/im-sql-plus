@@ -56,8 +56,6 @@ int main()
         }
 #endif
 
-        // set action at the reception of SIGCHLD
-
         if (l->seq[0] != NULL) {
 
             for (int i=0; l->seq[i]!=0; i++) {
